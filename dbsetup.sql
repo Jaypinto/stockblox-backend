@@ -33,7 +33,7 @@ CREATE TABLE "market"(
 
 CREATE TABLE "stock"(
    id INTEGER PRIMARY KEY NOT NULL,
-   stock_ticket varchar(10) UNIQUE NOT NULL,
+   stock_ticker varchar(10) UNIQUE NOT NULL,
    stock_name varchar(100) NOT NULL,
    prev_close NUMERIC(20,5)
 );
